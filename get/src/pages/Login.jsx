@@ -17,7 +17,7 @@ const Login = () => {
                     <div className="textInputs">
                         <TextInputs type="text" placeholder="Username"/>
                         <TextInputs type="password" placeholder="Password"/>
-                        <Button/>
+                        <Button label="Login"/>
                     </div>
                 </form>
                 <div className="contents">

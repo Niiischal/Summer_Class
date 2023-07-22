@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.signupFormContainer{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.signupForm>.form{
+    height: 70%;
+    width: 50%;
+    background-color: #ffffff;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    padding: 20px;
+}
+
+.signupForm{
+    background-color: rgba(24, 92, 205, 0.31);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
