@@ -1,5 +1,6 @@
 import React from 'react'
 import loginImage from '../assets/svgs/login-illustration.svg'
+import Button from '../components/Button'
 import '../styles/inputs.css'
 import '../styles/login.css'
 
@@ -15,7 +16,7 @@ const Login = () => {
                     <div className="textInputs">
                         <input type="text" placeholder='Enter The Username'/>
                         <input type="password" placeholder='Enter The Password'/>
-                        <button>Login</button>
+                        <Button/>
                     </div>
                 </form>
                 <div className="contents">
