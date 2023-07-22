@@ -1,4 +1,5 @@
 import React from 'react'
+import loginImage from '../assets/svgs/login-illustration.svg'
 import '../styles/inputs.css'
 import '../styles/login.css'
 
@@ -29,7 +30,7 @@ const Login = () => {
                 </div>
             </div>
             <div className="loginImage">
-                
+                <img src={loginImage} alt="login" />
             </div>
         </div>
     </div>
