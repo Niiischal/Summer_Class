@@ -1,0 +1,19 @@
+.container{
+    height: 100vh;
+    background-color: black;
+    width: 100%;
+}
+
+.loginFormContainer{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.loginForm{
+    background-color: antiquewhite;
+}
+
+.loginImage{
+    background-color: aqua;
+}
