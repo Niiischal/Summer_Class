@@ -1,0 +1,28 @@
+.textInputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.textInputs> input{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.textInputs> button{
+    background-color: #6315eb;
+    color: #fff;
+    border: 1px solid #627fd9;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contents{
+    margin-top: 20px;
+}
+
+.contents>div{
+    margin-top: 10px;
+}
