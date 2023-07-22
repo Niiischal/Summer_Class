@@ -1,4 +1,5 @@
 import React from 'react'
+import signupImage from '../assets/svgs/signup-illustration.svg'
 import Button from '../components/Button'
 import TextInputs from '../components/TextInputs'
 import '../styles/inputs.css'
@@ -33,6 +34,7 @@ const Signup = () => {
                 </div>
             </div>
             <div className="signupImage">
+                <img src={signupImage} alt="signup" />
             </div>
         </div>
     </div>
