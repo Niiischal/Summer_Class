@@ -27,7 +27,12 @@
     flex-direction: column;
 }
 
+.loginImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .loginImage>img{
-    width: 100%;
-    object-fit: cover;
+    width: 80%;
+    height: 60%;
 }
