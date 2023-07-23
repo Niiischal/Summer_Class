@@ -19,6 +19,11 @@
     font-size: 16px;
 }
 
+button:hover{
+    cursor: pointer;
+    color:#6315eb;
+    background-color: #ffffff;
+}
 .contents{
     margin-top: 20px;
 }

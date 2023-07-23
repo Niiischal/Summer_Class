@@ -49,7 +49,7 @@ const Signup = () => {
                         setPassword(text);
                       }}
                   />
-                  <Button label="Signup" />
+                  <Button label="Signup"/>
                 </div>
               </form>
               <div className="contents">
@@ -76,5 +76,6 @@ const Signup = () => {
     </>
   );
 };
+
 
 export default Signup;
