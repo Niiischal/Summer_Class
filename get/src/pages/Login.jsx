@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import loginImage from '../assets/svgs/login-illustration.svg'
 import Button from '../components/Button'
 import TextInputs from '../components/TextInputs'
@@ -6,6 +7,7 @@ import '../styles/inputs.css'
 import '../styles/login.css'
 
 const Login = () => {
+    const navigate = useNavigate();
   return (
     <>
     <div className="container">
@@ -27,7 +29,7 @@ const Login = () => {
                         textDecorationColor:'#6315eb',
                         color:'#6315eb',
                         cursor: 'pointer',
-                    }}>Signup</div>
+                    }} onClick={()=> navigate("/signup")}>Signup</div>
                 </div>
                 </div>
             </div>
