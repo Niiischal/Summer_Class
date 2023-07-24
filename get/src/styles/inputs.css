@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.textInputs> input{
+input{
     margin-bottom: 10px;
     padding: 10px;
     font-size: 16px;
@@ -14,7 +14,7 @@
     font-family: 'Aclonica', sans-serif;
 }
 
-.textInputs> button{
+button{
     background-color: black;
     color: #ffffff;
     border: 1px solid white;
