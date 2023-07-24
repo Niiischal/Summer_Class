@@ -4,7 +4,7 @@ import '../../styles/landing.css'
 const Landing = () => {
   return (
     <div className="container">
-      <div className="contents">
+      <div className="landingContainer">
         <div className="logoImage">
                 <img src={logo} alt="logo" />
         </div>
