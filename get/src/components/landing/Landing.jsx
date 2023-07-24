@@ -10,6 +10,14 @@ const Landing = () => {
         </div>
         <div className="description">
             <div className="description_card">
+              <div className="description_container">
+                <div className="image">
+
+                </div>
+                <div className="about_description">
+                  
+                </div>
+              </div>
             </div>
         </div>
       </div>

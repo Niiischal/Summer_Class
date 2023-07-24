@@ -9,14 +9,14 @@
     grid-template-rows: 15% 80%;
     gap: 5%;
 }
-
 .logoImage{
     height: 100%;
     width: 50%;
 }
 
 .logoImage>img{
-    height: 70%;
+    height: 65%;
+    margin-top: 5px;
 }
 
 .description{
@@ -31,6 +31,25 @@
     margin-right: 10px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(249, 246, 246, 0.2), 0 6px 20px 0 rgba(250, 247, 247, 0.19) ;
+}
+
+.description_container{
+    height: 60vh;
+    width: 90%;
+    background-color: aliceblue;
+    margin-left: 5%;
+    margin-top: 12px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    border-radius: 9px;
+}
+
+.description_container>.image{
+    background-color: aqua;
+}
+
+.about_description{
+    background-color: rgb(255, 127, 197);
 }
 
 
