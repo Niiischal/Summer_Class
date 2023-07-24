@@ -25,7 +25,7 @@
 }
 
 .description_card{
-    height: 80%;
+    height: 95%;
     width: 50%;
     margin-top: 10px;
     margin-right: 10px;
@@ -34,22 +34,11 @@
 }
 
 .description_container{
-    height: 60vh;
-    width: 90%;
-    background-color: aliceblue;
-    margin-left: 5%;
-    margin-top: 12px;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60% 40%;
     border-radius: 9px;
+    background-color: white;
 }
 
-.description_container>.image{
-    background-color: aqua;
-}
-
-.about_description{
-    background-color: rgb(255, 127, 197);
-}
 
 
