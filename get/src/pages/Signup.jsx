@@ -9,6 +9,7 @@ import "../styles/signup.css";
 const Signup = () => {
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
+  const [contact, setContact] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
@@ -26,6 +27,14 @@ const Signup = () => {
                     value={username}
                     onTextChange={(text) => {
                       setUsername(text);
+                    }}
+                  />
+                  <TextInputs
+                    type="number"
+                    placeholder="Contact"
+                    value={contact}
+                    onTextChange={(text) => {
+                      setContact(text);
                     }}
                   />
                   <TextInputs type="email" placeholder="Email" value={email} 
