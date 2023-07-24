@@ -8,12 +8,16 @@
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
+    color: black;
+    background-color: rgb(235, 236, 237);
+    border: 1px solid rgb(247, 154, 154);
+    font-family: 'Aclonica', sans-serif;
 }
 
 .textInputs> button{
-    background-color: #6315eb;
-    color: #fff;
-    border: 1px solid #627fd9;
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid white;
     border-radius: 4px;
     padding: 10px;
     font-size: 16px;
@@ -21,7 +25,7 @@
 
 button:hover{
     cursor: pointer;
-    color:#6315eb;
+    color: black;
     background-color: #ffffff;
 }
 .contents{
