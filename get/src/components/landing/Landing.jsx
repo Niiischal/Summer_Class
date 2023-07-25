@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom"
 import logo from '../../assets/logo.png'
 import '../../styles/inputs.css'
 import '../../styles/landing.css'
 import Button from '../Button'
 
 const Landing = () => {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <div className="landingContainer">
@@ -14,7 +16,7 @@ const Landing = () => {
         <div className="description">
             <div className="description_card">
                <h5>GetBooks: A haven for bibliophiles and literary wanderers. Step into a world of enchanting tales and endless possibilities. Our cozy book store welcomes you with shelves adorned in a rich tapestry of genres, from classics to contemporary bestsellers, and everything in between. Immerse yourself in the intoxicating aroma of fresh paper and ink as you lose track of time, discovering hidden treasures and timeless stories. Whether you seek to escape reality or deepen your knowledge, Between the Pages Book Emporium is the gateway to limitless imagination and a community of passionate readers. Let the words embrace you, and let your journey begin.</h5>
-               <div className="explore">
+               <div className="explore" onClick={() => navigate("/signup")}>
                <Button label="Explore"/>
                </div>
             </div>
