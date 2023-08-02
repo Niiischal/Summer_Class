@@ -62,12 +62,12 @@ const Signup = () => {
                 </div>
               </form>
               <div className="contents">
-                <div style={{color:"aliceblue"}}>Already have an account?</div>
+                <div style={{color:"#61DAFB"}}>Already have an account?</div>
                 <div
                   style={{
                     textDecoration: "underline",
-                    textDecorationColor: "aliceblue",
-                    color: "aliceblue",
+                    textDecorationColor: "#61DAFB",
+                    color: "#61DAFB",
                     cursor: "pointer",
                   }}
                   onClick={() => navigate("/login")}
