@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import Landing from './components/landing/Landing'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 
@@ -9,7 +8,7 @@ const App = () => {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Landing/>}/>
+          <Route path="/" element={<Login/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/>
         </Routes>
